@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C9DF3FD"
+    tools:context=".Loginactivity">
+
+    <EditText
+        android:id="@+id/Nome"
+        android:layout_width="310dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="272dp"
+        android:background="?android:attr/fastScrollPreviewBackgroundLeft"
+        android:backgroundTint="#00BCD4"
+        android:elevation="15dp"
+        android:ems="10"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:hint=" Nome Completo"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FAF4F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="310dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="408dp"
+        android:background="?android:attr/fastScrollPreviewBackgroundLeft"
+        android:backgroundTint="#00BCD4"
+        android:elevation="15dp"
+        android:ems="10"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FAF4F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/entrar"
+        android:layout_width="143dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="524dp"
+        android:backgroundTint="#01A5BA"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:text="Entre"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="261dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:text="Bem vindo à"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:text="Estante Viva"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

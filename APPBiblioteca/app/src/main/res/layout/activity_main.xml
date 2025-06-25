@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_livros"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C9DF3FD"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="379dp"
+        android:layout_height="637dp"
+        android:layout_marginTop="552dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/monstera_plant_freehand_drawing_flat_design_free_png" />
+
+    <Button
+        android:id="@+id/cad_User"
+        android:layout_width="227dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#00BCD4"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Cadastro Usuário"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:rippleColor="#009688" />
+
+    <Button
+        android:id="@+id/Biblioteca"
+        android:layout_width="227dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="92dp"
+        android:backgroundTint="#00BCD4"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Biblioteca"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cad_Livro"
+        app:rippleColor="#009688" />
+
+    <Button
+        android:id="@+id/cad_Livro"
+        android:layout_width="227dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="92dp"
+        android:backgroundTint="#00BCD4"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Cadastro Livros"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cad_User"
+        app:rippleColor="#009688" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Estante Viva"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
